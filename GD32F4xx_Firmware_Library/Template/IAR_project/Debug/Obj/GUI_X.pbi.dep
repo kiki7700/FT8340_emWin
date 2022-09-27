@@ -1,0 +1,16 @@
+GUI_X.pbi: \
+  D:\GD32F470\project\FT8340_emWin\GD32F4xx_Firmware_Library\Firmware\emWin\OS\GUI_X.c \
+  D:\GD32F470\project\FT8340_emWin\GD32F4xx_Firmware_Library\Firmware\emWin\inc\GUI.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stddef.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\\Program\ Files\ (x86)\\IAR\ Systems\\Embedded\ Workbench\ 8.3\\arm\\inc\\c\\DLib_Config_Full.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ysizet.h \
+  D:\GD32F470\project\FT8340_emWin\GD32F4xx_Firmware_Library\Firmware\emWin\inc/GUI_ConfDefaults.h \
+  D:\GD32F470\project\FT8340_emWin\GD32F4xx_Firmware_Library\Firmware\emWin\config\GUIConf.h \
+  D:\GD32F470\project\FT8340_emWin\GD32F4xx_Firmware_Library\Firmware\emWin\inc/GUI_Type.h \
+  D:\GD32F470\project\FT8340_emWin\GD32F4xx_Firmware_Library\Firmware\emWin\inc/LCD.h \
+  D:\GD32F470\project\FT8340_emWin\GD32F4xx_Firmware_Library\Firmware\emWin\inc/Global.h \
+  D:\GD32F470\project\FT8340_emWin\GD32F4xx_Firmware_Library\Firmware\emWin\inc/GUI_Version.h
