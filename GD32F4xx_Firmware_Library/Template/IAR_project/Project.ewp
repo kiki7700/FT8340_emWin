@@ -2405,6 +2405,9 @@
             </configuration>
         </file>
         <file>
+            <name>$PROJ_DIR$\..\..\Firmware\emWin\config\LCDConf_FlexColor_Template.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\..\Firmware\emWin\Lib\STemWin_CM4_wc32_ARGB.a</name>
         </file>
     </group>

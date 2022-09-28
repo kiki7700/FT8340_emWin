@@ -26,6 +26,7 @@ build systick.pbi : index systick.xcl
 build system_gd32f4xx.pbi : index system_gd32f4xx.xcl
 build GUI_X.pbi : index GUI_X.xcl
 build GUIConf.pbi : index GUIConf.xcl
+build LCDConf_FlexColor_Template.pbi : index LCDConf_FlexColor_Template.xcl
 build gd32f450i_eval.pbi : index gd32f450i_eval.xcl
 build gd32f4xx_adc.pbi : index gd32f4xx_adc.xcl
 build gd32f4xx_can.pbi : index gd32f4xx_can.xcl
@@ -57,12 +58,13 @@ build gd32f4xx_trng.pbi : index gd32f4xx_trng.xcl
 build gd32f4xx_usart.pbi : index gd32f4xx_usart.xcl
 build gd32f4xx_wwdgt.pbi : index gd32f4xx_wwdgt.xcl
 build Project_part0.pbi : link gd32f4xx_it.pbi main.pbi systick.pbi system_gd32f4xx.pbi GUI_X.pbi GUIConf.pbi
-build Project_part1.pbi : link gd32f450i_eval.pbi gd32f4xx_adc.pbi gd32f4xx_can.pbi gd32f4xx_crc.pbi gd32f4xx_ctc.pbi gd32f4xx_dac.pbi
-build Project_part2.pbi : link gd32f4xx_dbg.pbi gd32f4xx_dci.pbi gd32f4xx_dma.pbi gd32f4xx_enet.pbi gd32f4xx_exmc.pbi gd32f4xx_exti.pbi
-build Project_part3.pbi : link gd32f4xx_fmc.pbi gd32f4xx_fwdgt.pbi gd32f4xx_gpio.pbi gd32f4xx_i2c.pbi gd32f4xx_ipa.pbi gd32f4xx_iref.pbi
-build Project_part4.pbi : link gd32f4xx_misc.pbi gd32f4xx_pmu.pbi gd32f4xx_rcu.pbi gd32f4xx_rtc.pbi gd32f4xx_sdio.pbi gd32f4xx_spi.pbi
-build Project_part5.pbi : link gd32f4xx_syscfg.pbi gd32f4xx_timer.pbi gd32f4xx_tli.pbi gd32f4xx_trng.pbi gd32f4xx_usart.pbi gd32f4xx_wwdgt.pbi
-build Project.pbd : link Project_part0.pbi Project_part1.pbi Project_part2.pbi Project_part3.pbi Project_part4.pbi Project_part5.pbi
+build Project_part1.pbi : link LCDConf_FlexColor_Template.pbi gd32f450i_eval.pbi gd32f4xx_adc.pbi gd32f4xx_can.pbi gd32f4xx_crc.pbi gd32f4xx_ctc.pbi
+build Project_part2.pbi : link gd32f4xx_dac.pbi gd32f4xx_dbg.pbi gd32f4xx_dci.pbi gd32f4xx_dma.pbi gd32f4xx_enet.pbi gd32f4xx_exmc.pbi
+build Project_part3.pbi : link gd32f4xx_exti.pbi gd32f4xx_fmc.pbi gd32f4xx_fwdgt.pbi gd32f4xx_gpio.pbi gd32f4xx_i2c.pbi gd32f4xx_ipa.pbi
+build Project_part4.pbi : link gd32f4xx_iref.pbi gd32f4xx_misc.pbi gd32f4xx_pmu.pbi gd32f4xx_rcu.pbi gd32f4xx_rtc.pbi gd32f4xx_sdio.pbi
+build Project_part5.pbi : link gd32f4xx_spi.pbi gd32f4xx_syscfg.pbi gd32f4xx_timer.pbi gd32f4xx_tli.pbi gd32f4xx_trng.pbi gd32f4xx_usart.pbi
+build Project_part6.pbi : link gd32f4xx_wwdgt.pbi
+build Project.pbd : link Project_part0.pbi Project_part1.pbi Project_part2.pbi Project_part3.pbi Project_part4.pbi Project_part5.pbi Project_part6.pbi
 build Project.pbw : browsedata Project.pbd
 
 

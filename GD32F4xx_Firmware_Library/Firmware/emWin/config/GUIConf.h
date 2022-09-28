@@ -71,13 +71,13 @@ Purpose     : Configures emWins abilities, fonts etc.
 #define USE_MXT224_CTP 	 0
 #define USE_RTP          0
 #define USE_CTP          0
-#define New_CTP 				 0
+#define New_CTP 	 0
 #define use_XPT2046      1
 
 
 #define TK020F9168       0
 #define TFT1P1061        0
-#define TK043F1508       0
+#define TK043F1508       1
 #define TK022RB417       0
 
 #define USE_16bit_LCD    0
@@ -108,6 +108,7 @@ Purpose     : Configures emWins abilities, fonts etc.
 
 #define XSIZE_PHYS 800
 #define YSIZE_PHYS 480
+
 #if GUI_SUPPORT_TOUCH
 		// Touch screen
 		//´¥ÃþÆÁÐ£ÑéÖµ
